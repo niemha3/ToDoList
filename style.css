@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(to right, rgb(2, 201, 89), rgb(231, 234, 129));
+    font-family:fantasy, sans-serif;
+}
+
+.heading {
+   letter-spacing:0.2em;
+   font-weight:900;
+   font-size:2.5em;
+   }
+
+
+.instructions {
+   font-size:1.6em;
+   font-weight:700;
+}
+
+.input {
+  font-size:1.5em;
+ }
+
+
+:placeholder-shown {
+    width:33%;
+    font-size:0.7em;
+}
+
+::placeholder {
+    padding-bottom:20px;
+    font-size:.7em;
+}
+
+
+
+.container {
+    font-size:1.5em; 
+    font-weight: 700;
+}
+
+.done {
+    text-decoration: line-through;
+    text-decoration-thickness: 5px;
+}
+
+button {
+    font-family:fantasy, sans-serif;
+    font-weight:500;
+    font-size:0.8em;
+    letter-spacing:0.15em;
+    height:1.6em;
+    margin-top:5px;
+    margin-left:10px;
+    border-radius:3px;
+    background:rgb(128,128,128,0.2);
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    list-style: none;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:none;
+}
+
+li {
+
+    margin:25px 5px 20px 5px;
+   
+}
+
+li button {
+    margin-left:8px;
+}
+
+.wrapper {
+    background-color:rgb(128,128,128, 0.3);
+    border-radius:10px;
+    width:fit-content;
+    border: 8px solid black;
+    margin: 2% 33% 15% 33%;
+    padding:5px 5px;
+}
+
+.bottomtext {
+    font-size:1.2em;
+    font-family:monospace;
+    text-align:center;
+    padding-bottom:0px;
+}
+
+.space {
+    height:1em;
+}
+
